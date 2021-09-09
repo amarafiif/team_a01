@@ -1,0 +1,421 @@
+* {
+	font-family: Arial;
+	font: 16px;
+	padding: 0px;
+	margin: 0 0 0 0;
+}
+  
+.container {
+	max-width: 1170px;
+	width: 100%;
+	padding: 0 15px;
+	margin: 0 auto;
+  }
+
+.navbar{
+	text-align: center;
+	width: 1349px;
+	font-size: 18px;
+	font-weight: bold;
+  	background-color: #ffbd00;
+}
+  
+.navbar ul{
+	/*warna navbar*/
+	list-style-type: none;
+	position: relative;
+  overflow: hidden;
+	width: 100%;
+  background-color: #ffbd00;
+}
+   
+.navbar ul li{
+	float:left;
+   
+}
+.navbar  input{
+	margin: 20px;
+}
+  
+.navbar ul li:hover{
+	/*warna hover navbar*/
+	background-color: #30336b;
+}
+  
+.navbar ul li:hover a{
+	/*warna font hover*/
+	color: #ffbd00;
+}
+  
+.navbar ul li a{
+	/*warna font*/
+	display: block;
+	padding: 20px;
+	color: #30336b;
+	text-decoration: none;
+}
+
+.gambar-1 {
+width: 470px; 
+height: 320px;
+float: right; 
+padding-right: 9%; 
+padding-top: 9%;
+}
+
+.text-container p:nth-child(1){
+	font-weight:bold;
+	color:#000000;
+	font-size:22px;
+}
+
+.text-container p:nth-child(2){
+	font-weight:bold;
+	letter-spacing:1px;
+	color:#000000;
+	font-size:60px;
+}
+
+.text-container p:nth-child(3){
+	color: #000000;
+	font-size:22px;
+	line-height:30px;
+}
+ 
+.text-container p{
+	margin:45px 0px 25px;
+	line-height:0px;
+	text-decoration: none;
+}
+
+.text-container button{
+	width:130px;
+	height:42px;
+	font-weight:bold;
+	text-decoration: none;
+	font-size: 14px;
+	border: none;
+	border-radius: 13px;
+	background-color: #ffbd00;
+	border-bottom: 5px solid #fe9000;
+}
+
+button:active {
+	position: relative;
+	top: 5px;
+	border-bottom: none;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+.text-container{
+	position: absolute;
+	top: 30%;
+  	left: 10%;
+	text-decoration: none;
+}
+
+.box-container{
+	margin-top:45%;
+	height: 120%;
+	align-items: center;
+	display: flex;
+	margin-right: 1%;
+	border-radius: 10px;
+	padding: auto;
+}
+.box-1,.box-2,.box-3{
+	width: 40%;
+	height: 60%;
+	box-shadow:2px 2px 18px rgba(0,0,0,0.3);
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	border-radius: 10px;
+	margin-left: 1.4%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+ 
+.box-1 p:nth-child(2),
+.box-2 p:nth-child(2),
+.box-3 p:nth-child(2){
+	color:#000000;
+	font-size: 20px;
+	line-height:0px;
+	margin-bottom: 10%;
+}
+
+.gambar-2 {
+width: 464px; 
+height: 464px;
+float: left; 
+padding-left: 16%; 
+padding-top: 3%; 
+padding-bottom: 3%;
+}
+
+.text-bawah p:nth-child(1){
+	font-weight:bold;
+	color:#30336b;
+	font-size:22px;
+}
+
+.text-bawah p:nth-child(2){
+	font-weight:bold;
+	color:#30336b;
+	font-size:22px;
+}
+
+.text-bawah p:nth-child(3){
+	font-weight:bold;
+	color:#30336b;
+	font-size:22px;
+}
+ 
+.text-bawah p{
+	margin:45px 0px 25px;
+	line-height:0px;
+	text-decoration: none;
+}
+
+.dropdown {
+	color:#30336b;
+	float: right;
+	font-size: 22px;
+	padding: 12px;
+	/* Gantikan property display ke none */
+	visibility: hidden;
+}
+
+.text-bawah{
+	margin-top: 13%;
+	margin-left: 55%;
+	text-decoration: none;
+	background-color: #ffc500;
+	overflow: hidden;
+	text-align: center;
+	padding-bottom: 1%;
+	width: 400px;
+	border-radius: 13px;
+	border-bottom: 5px #fe9000 solid;
+}
+
+.kotak-bawah{
+	margin-top: 7%;
+	background-color: #30336b;
+	width: 100%;
+	height:200px;
+	background-size:cover;
+	background-repeat:no-repeat;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-bottom:4px solid #fe9000;
+}
+
+.kotak-bawah p{
+	color:#ffffff;
+	font-size: 30px;
+	font-weight:bold;
+
+}
+
+.kotak-bawah button{
+	margin-top: 10%;
+	width:200px;
+	height:40px;
+	background-color: #ffc500;
+	border:none;
+	outline:none;
+	font-size:14px;
+	font-weight:bold;
+	border-bottom: 5px solid #fe9000;
+	border-radius: 5px;
+}
+
+
+footer{
+	height:300px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+
+.table{
+	margin-top: 1%;
+	margin-left: 32.2%;
+    color: #232323;
+    border-collapse: collapse;
+}
+ 
+.table, th, td {
+    padding: 8px 20px;
+}
+
+/* for smartphone */
+@media screen and (max-width: 670px) {
+	.navbar {
+		width:100%
+	}
+
+	.navbar ul {
+		text-align: center;
+		margin: auto;
+		line-height: 30px;
+	}
+
+	.navbar ul li a {
+		display: none;
+		font-size: 10px;
+	}
+
+	.dropdown {
+		visibility: visible;
+		float: right;
+		margin: auto;
+	}
+
+	.gambar-1 {
+		display: block;
+		width: 75%;
+		height: 70%;
+		margin-top: 40px;
+	}
+
+	.text-container {
+		margin-top: 250px;
+		display: block;
+		width: 77%;
+		text-align: center;
+
+	}
+
+	.box-container {
+		display: block;
+		width: 100%;
+		margin-top: 700px;
+		padding: 10px;
+		}
+
+	.box-container .box-1 {
+		width: 100%;
+		text-align: center;
+	}
+
+	.box-container .box-2 {
+		width: 100%;
+		text-align: center;
+		word-wrap: break-word;
+	}
+
+	.box-container .box-3 {
+		width: 100%;
+		text-align: center;
+	}
+
+	.box-container img {
+		width: 100%;
+	}
+
+	.gambar-2 {
+		display: block;
+		width: 70%;
+		height: auto;
+	}
+
+	.text-bawah-kotak .text-bawah {
+		display: block;
+		width: 100%;
+		align-items: center;
+		margin: auto;
+	}
+
+	.table {
+		display: block;
+		width:100%;
+margin: auto;
+	}
+}
+
+/* for tablet */
+@media (min-width:671px) and (max-width:1100px) {
+	.navbar {
+		width:100%
+	}
+
+	.navbar ul {
+		text-align: center;
+		margin: auto;
+		line-height: 30px;
+		
+	}
+
+	.navbar ul li {
+		display: inline-block;
+		font-size: 15px;
+	}
+	
+	.gambar-1 {
+		display: block;
+		width: 70%;
+	}
+
+	.text-container {
+		margin-top: 265px;
+		display: block;
+		width: 77%;
+		text-align: center;
+	}
+
+
+	.box-container {
+		display: block;
+		width: 100%;
+		margin-top: 600px;
+		}
+
+	.box-container .box-1 {
+		width: 90%;
+		text-align: center;
+		margin-left: 6.5%;
+	}
+
+	.box-container .box-2 {
+		width: 90%;
+		text-align: center;
+		margin-left: 6.5%;
+	}
+
+	.box-container .box-3 {
+		width: 90%;
+		text-align: center;
+		margin-left: 6.5%;
+	}
+	
+	.gambar-2 {
+		display: block;
+		width: 70%;
+	}
+
+	.text-bawah-kotak .text-bawah {
+		display: block;
+		width: 90%;
+		margin-left:6%;
+	}
+
+	.table {
+		display: block;
+		width:40%;
+	}
+
+	
+}
+
+
+
